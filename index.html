@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANGMAN GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Hangman</h1>
+        <p>Use the alphabet bellow to guess teh word, or click hint to get a clue</p>
+    </div>
+    <div class="wrapper">
+        <div id="buttons"></div>
+        <p id="catagoryName"></p>
+        <div id="hold"></div>
+        <p id="mylives"></p>
+        <p id="clue">Clue -</p>
+        <canvas id="stickman">
+            This text will show if the browser does not support HTML5 canvas tag.
+        </canvas>
+        <div class="container">
+            <button id="hint">Hint</button>
+            <button id="reset">Play</button>
+        </div>
+    </div>
+    <audio id="celebrationSong" src="sound.mp3" hide></audio>
+    <script src="script.js"></script>
+</body>
+</html>
